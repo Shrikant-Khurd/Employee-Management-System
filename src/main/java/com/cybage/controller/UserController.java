@@ -26,6 +26,10 @@ public class UserController {
 	@Autowired
 	private UserService userService;
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> shrikant
 
 //Registration of Manager
 	@PostMapping("/registration-user")
