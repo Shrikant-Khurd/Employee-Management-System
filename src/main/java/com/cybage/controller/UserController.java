@@ -26,11 +26,6 @@ public class UserController {
 	@Autowired
 	private UserService userService;
 
-<<<<<<< HEAD
-=======
-
->>>>>>> shrikant
-
 //Registration of Manager
 	@PostMapping("/registration-user")
 	public ResponseEntity<String> registration(@RequestBody SignUpBean signUpBean) {
