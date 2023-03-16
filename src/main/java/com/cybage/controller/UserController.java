@@ -26,7 +26,6 @@ public class UserController {
 	@Autowired
 	private UserService userService;
 
-//	private UserService userService;
 
 //Registration of Manager
 	@PostMapping("/registration-user")
