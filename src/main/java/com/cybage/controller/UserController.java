@@ -78,11 +78,6 @@ public class UserController {
 		return new ResponseEntity<SignUpBean>(login, HttpStatus.OK);
 	}
 }
-	
-
-
-
-
 
 //@PostMapping("/registration")
 //public ResponseEntity<String> registration(@RequestBody SignUpBean signUpBean)
