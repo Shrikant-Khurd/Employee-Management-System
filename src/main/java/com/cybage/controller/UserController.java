@@ -16,7 +16,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.cybage.model.RoleBean;
 import com.cybage.model.SignUpBean;
-import com.cybage.service.SignUpService;
 import com.cybage.service.UserService;
 
 @RestController
