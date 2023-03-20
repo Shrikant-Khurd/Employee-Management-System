@@ -78,20 +78,3 @@ public class UserController {
 	}
 }
 
-//@PostMapping("/registration")
-//public ResponseEntity<String> registration(@RequestBody SignUpBean signUpBean)
-//{
-//	String UserEmail = signUpBean.getEmail();
-//	
-//	boolean verifyIfEmailExists = signUpService.checkEmail(UserEmail);
-//	
-//	if(!verifyIfEmailExists)
-//	{
-//		signUpService.registration(signUpBean);
-//		return new ResponseEntity<>("Registered successfully!!", HttpStatus.CREATED);
-//	}
-//	else
-//	{
-//		throw new InvalidInputException("Email already exists!");
-//	}
-//}
